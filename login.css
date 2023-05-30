@@ -1,3 +1,6 @@
+ @import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto&family=Roboto+Slab&display=swap');
+
+
 *{
     transition:all 0.3s ease;
 }
@@ -31,7 +34,7 @@ body {
 #topbox
 {
     border-radius:  5px 5px 0 0  ;
-    background: #2196f3;
+    background: #212df3;
     width: 100%;
     height: 210px; 
     display: block;
@@ -41,20 +44,20 @@ body {
     display:inline-flex;
     color:#fff;
     font-size: 20px;
-    font-family:sans-serif;
-    letter-spacing:2px;
+    font-family: 'Roboto Slab', serif;
 }
 .italic{
-    font-style: italic;
     font-weight: bolder;
-    color: indianred;
-    letter-spacing: 4px;
+    color:  #FFC300;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
 }
 
 table{
     border: 1px solid white;
     border-bottom-width: 0;
     border-top-width: 0;
+    font-family: 'Fira Code', monospace;
 }
 tr,td,th {
   border-color: inherit;
@@ -62,6 +65,10 @@ tr,td,th {
   border-width: 0;
 }
 /**------------USER------------**/
+.form{
+    font-family: 'Fira Code', monospace;
+
+}
 #user{
     border:0px #ccc solid;
     border-bottom:1px #ccc solid; 
@@ -104,16 +111,30 @@ tr,td,th {
 }
 /*---------------Boton---------*/
 #boton{
-	-webkit-appearance:none;color:#fff;
-	background:#2196f3; 
+	-webkit-appearance:none;
+    color:#fff;
+	background:#212df3; 
     background-image:url(assets/ic_arrow_forward_white_24dp_1x.png);
-    background-repeat: no-repeat; background-position:center; opacity: 1;
-    border:none;border-radius:21px;height:42px;width:234px;font-size:16px;font-weight:400;outline:0;text-transform:uppercase;
-    letter-spacing:1.5px;cursor:pointer;
+    background-repeat: no-repeat;
+    background-position:center; 
+    opacity: 1;
+    border:none;border-radius:21px;
+    height:42px;
+    width:234px;
+    font-size:16px;
+    font-weight:400;
+    outline:0;
+    text-transform:uppercase;
+    letter-spacing:1.5px;
+    cursor:pointer;
     margin-top: 10px;
 }
 #boton:hover{
-	background-color:#64b5f6;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease
+	background-color:#64b5f6;
+    -webkit-transition:all 0.3s ease;
+    -moz-transition:all 0.3s ease;
+    -o-transition:all 0.3s ease;
+    transition:all 0.3s ease
 }
 
 
